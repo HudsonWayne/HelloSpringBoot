@@ -19,5 +19,8 @@ public class Student {
         this.email = email;
         this.course = course;
     }
+
+    //Getters and Setters
+    public Long getId() { return id; }
     
 }
