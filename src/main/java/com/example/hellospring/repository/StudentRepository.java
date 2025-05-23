@@ -3,6 +3,6 @@ package com.example.hellospring.repository;
 import com.example.hellospring.model.Student;
 import org.springframework.data.jpa.repository.JpaRepository;
 
-public class StudentRepository {
+public interface StudentRepository extends JpaRepository<Student, Long> {
     
 }
